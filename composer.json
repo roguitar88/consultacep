@@ -1,0 +1,21 @@
+{
+    "name": "roguitar88/consultacep",
+    "description": "Consulta de CEP online",
+    "authors": [
+        {
+            "name": "roguitar88",
+            "email": "rogeriobsoares5@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.2.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "Search": "src/"
+        },
+        "psr-4": {
+            "Roguitar\\ConsultaCep\\": "src"
+        }
+    }
+}
